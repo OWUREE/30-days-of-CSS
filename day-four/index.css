@@ -1,0 +1,107 @@
+body{
+    font-family: 'poppins';
+    font-size: 1rem;
+    color: #161544;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+}
+.main-container{
+    height: 90vh; 
+    width: 65%;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5f5;
+}
+.outer-container{
+    padding: 2.5rem;
+    background-color: #fcf9f9;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    box-shadow: #E5E5E5;
+    border-radius: 0.5rem;
+    background-color: white;
+    width: 70%; 
+    padding: 1rem;
+    margin-bottom: 2rem;
+   
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6f6f7e;
+}
+.icon-container{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+span{
+    color: #161544;
+    font-weight: bold;
+}
+.top-flex-items{
+    font-family: 'merriweather';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bell-icon-div{
+   align-self: flex-end;
+}
+.bell-icon{
+    border-radius: 0.2rem;
+    margin-right: 2.7rem;
+    padding: 0.5rem;
+    width: 14%;
+    height: 22%;
+    background-color: #161544;
+}
+button{
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    margin: 0.2rem;
+    
+}
+h2{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+h3{
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+}
+hr{
+    width: 85%;
+}
+h4{
+    font-size: 0.7rem;
+    color: #4B5ADE;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: #E5E5E5;
+    margin-right: 2rem;
+}
+p{
+    font-size: 0.9rem;
+}
+.icons{
+    width: 70%;
+    height: 70%;
+} 
