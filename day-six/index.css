@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish';
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    font-weight: normal;
+    font-size: 1.1rem;
+    background-color: #E5E5E5;
+}
+.outer-container{
+    width: 60%;
+    height: 90vh;
+    background-color: #292B48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    padding: 1rem;
+    height: 60vh;
+    width: 60%;
+    border-radius: 1.3rem;
+    background-color: #2F314F;
+}
+.main-content{
+    margin: 1rem;
+}
+.top-flex{
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.settings{
+    display: flex;
+    align-items: center;
+    margin-right: -2rem;
+    
+   }
+.mid-text{
+    margin-top: 1rem;
+    font-size: 'Mulish';
+    
+}
+.mid-button{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    max-width: 95%;
+    border: 1px solid #505166;
+    background-color: #292B48;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inner-buttons{
+   font-size: 0.9rem;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   border-radius: 2rem;
+   background-color: #41436B;
+   border: 1px solid #505166;
+   max-width: 30%;
+   margin-left: 0.3rem;
+   padding: 3px;
+}
+.button-text{
+    margin-left: 0.3rem;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.input-check{
+    position: relative;
+    margin: 0.3rem;
+    background-color: #292B48;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #505166;
+}
+.input-check::after{
+   opacity: 0;
+   transition: opacity 0.2s;
+   content: '';
+   height:15px ;
+   width: 15px;
+   background-image: url('./assets/icons8-select-checkmark-symbol-to-choose-true-answer-24.png') ;
+   background-position:center;
+   background-size: cover; 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.input-check:checked::after{
+    opacity: 1;
+}
+.check-text{
+    font-size: 0.9rem;
+}
+.bottom-flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 3rem;
+}
+h3{
+    font-size: 0.9rem;
+    color: #717FFF;
+}
+.bot-button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-bot{
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #292B46;
+    margin-left: 0.8rem;
+    padding : 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border: 1px solid transparent ;
+    border-radius : 0.2rem;
+    margin-top: -0.5rem;
+}
+.different{
+    background-color: #717FFF;
+}
+
+   /*icons styling starts here */
+   
+   .settings-icon{
+       max-width: 15%;
+       max-height: 25%;
+       margin-left: 0.4rem;
+   }
+   .back-icon{
+       background-color: white;
+       border-radius: 50%;
+       padding: 0.3rem;
+       text-align: center;
+       max-width: 6%;
+      
+   }
+   .icon-back{
+       max-width: 70%;
+       max-height: 90%;
+   }
+   .rounded-icon{
+       max-width: 20%;
+   }
+   
